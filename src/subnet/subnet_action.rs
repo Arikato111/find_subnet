@@ -36,3 +36,22 @@ pub fn get_subnet(mask: u8) -> String {
     }
     subnet
 }
+
+pub fn flip_bit(bit: String) -> String {
+    let mut bit_source: Vec<&str> = bit.split("").collect();
+    let limit_loop: u8 = bit_source.len() as u8;
+
+    for i in 0..limit_loop {
+        match bit_source.get(i as usize) {
+            Some(v) => {
+                if *v == "0" {
+                    bit_source[i as usize] = "1";
+                } else if *v == "1" {
+                    bit_source[i as usize] = "0";
+                }
+            }
+            None => todo!(),
+        }
+    }
+    bit_source.join("")
+}
