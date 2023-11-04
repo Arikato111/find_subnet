@@ -13,7 +13,7 @@
     <img alt="" src="https://img.shields.io/github/repo-size/Arikato111/find_subnet" />
 </p>
 
-command line programming for find subnet mask
+console application for find subnet mask
 
 ### Install (For linux)
 
