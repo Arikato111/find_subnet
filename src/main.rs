@@ -1,4 +1,4 @@
-use find_subnet_mask::{bin_to_int, get_subnet, help, show_version, subnet_format};
+use find_subnet::{bin_to_int, get_subnet, help, show_version, subnet_format};
 use std::env::args;
 
 fn main() {

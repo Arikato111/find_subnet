@@ -1,5 +1,5 @@
 [package]
-name = "find_subnet_mask"
+name = "find_subnet"
 version = "0.1.1"
 edition = "2021"
 

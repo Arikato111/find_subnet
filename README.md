@@ -1,8 +1,23 @@
+<p align="center">
+    <img height="30" width="40" alt="rust" src="https://github.com/Arikato111/Arikato111/raw/main/icons/rust.svg">
+</p>
+
 # <p align="center">Find subnet mask</p>
+
+<p align="center">
+    <img alt="Github License" src="https://img.shields.io/github/license/Arikato111/find_subnet" />
+    <img alt="GitHub Issues" src="https://img.shields.io/github/issues/Arikato111/find_subnet" />
+    <img alt="GitHub Pull Requests" src="https://img.shields.io/github/issues-pr/Arikato111/find_subnet" />
+    <img alt="GitHub Contributors" src="https://img.shields.io/github/contributors/Arikato111/find_subnet" />
+    <img alt="GitHub Last Commit" src="https://img.shields.io/github/last-commit/Arikato111/find_subnet" />
+    <img alt="" src="https://img.shields.io/github/repo-size/Arikato111/find_subnet" />
+</p>
 
 command line programming for find subnet mask
 
 ### Install (For linux)
+
+1. run code bellow on your terminal with `curl` or `wget`
 
 ```bash
 curl -o- https://raw.githubusercontent.com/Arikato111/learn-rust-projects/main/find_subnet_mask/release/install.sh | bash
