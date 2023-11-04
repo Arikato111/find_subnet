@@ -20,11 +20,11 @@ command line programming for find subnet mask
 1. run code bellow on your terminal with `curl` or `wget`
 
 ```bash
-curl -o- https://raw.githubusercontent.com/Arikato111/learn-rust-projects/main/find_subnet_mask/release/install.sh | bash
+curl -o- https://raw.githubusercontent.com/Arikato111/find_subnet/main/release/install.sh | bash
 ```
 
 ```bash
-wget -qO- https://raw.githubusercontent.com/Arikato111/learn-rust-projects/main/find_subnet_mask/release/install.sh | bash
+wget -qO- https://raw.githubusercontent.com/Arikato111/find_subnet/main/release/install.sh | bash
 ```
 
 ### Build

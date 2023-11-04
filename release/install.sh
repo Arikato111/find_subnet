@@ -11,9 +11,9 @@ mkdir $HOME/.subnet
 mkdir $HOME/.subnet/bin
 
 echo "start cloning from git";
-git clone https://github.com/Arikato111/learn-rust-projects.git $HOME/.subnet/gi
+git clone https://github.com/Arikato111/find_subnet.git $HOME/.subnet/gi
 echo "copy binary file to bin";
-cp $HOME/.subnet/gi/find_subnet_mask/release/bin/subnet $HOME/.subnet/bin
+cp $HOME/.subnet/gi/release/bin/subnet $HOME/.subnet/bin
 echo "Delete file";
 rm -rf $HOME/.subnet/gi
 
