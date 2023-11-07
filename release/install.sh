@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # check git 
-if [ "$(git -v)" == "" ]; then
+if [ "$(git --version)" == "" ]; then
 	echo "git not install. please install git and run again.";
 	exit;
 fi
