@@ -64,4 +64,5 @@ $ subnet -w 10 20 30
 ### TODOs
 
 - [ ] find subnet with number of devices 
+- [ ] update to latest version
 - [x] find wildcard
