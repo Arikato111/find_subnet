@@ -1,12 +1,27 @@
 use crate::VERSION;
 
 pub fn help() {
-    println!();
-    println!("subnet version {}", VERSION);
-    println!("\t<0-32>\t\tto show subnet mask with single input");
-    println!("\t<0-32> <0-32> <0-32> ... \tto show subnet mask with multi input");
-    println!("");
-    println!("\t-w, --wildcard \t to show wildcard");
+    println!(r#"
+subnet version {VERSION}
+
+Note: 
+ github: https://github.com/Arikato111/find_subnet
+
+Usage:
+    subnet [OPTION] INPUT 
+
+INPUT 
+    <0-32>                      to show subnet mask with single input
+    <0-32> <0-32> <0-32> ...    to show subnet mask with multi input
+
+OPTION 
+    -w, --wildcard              to show wildcard
+    -h, --help                  to show this message
+"#);
+    // println!("subnet version {}", VERSION);
+    // println!("");
+    // println!("");
+    // println!("");
 }
 
 pub fn show_version() {
