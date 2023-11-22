@@ -34,7 +34,7 @@ elif [ "${SHELL#*zsh}" != "$SHELL" ]; then
 fi
 
 # set PATH to shell
-echo export PATH=$PATH:$HOME/.subnet/bin >> $DETECTED_PROFILE;
+echo "export PATH=\$PATH:\$HOME/.subnet/bin" >> $DETECTED_PROFILE;
 
 echo "";
 echo -e "\e[32minstall successfuly! \e[0m";
