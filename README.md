@@ -30,7 +30,7 @@ wget -qO- https://raw.githubusercontent.com/Arikato111/find_subnet/main/release/
 ### Build
 
 - `cargo build --release`
-- output file is `./target/release/find_subnet_mask`
+- output file is `./target/release/find_subnet`
 
 ### Run
 
