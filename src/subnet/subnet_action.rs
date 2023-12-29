@@ -1,3 +1,6 @@
+/**
+ * func: convert binary number to base 10 number
+ */
 pub fn bin_to_int(bin: &String) -> String {
     let sbin: Vec<&str> = bin.split(".").collect();
     let mut c_sbin: String = "".to_string();
@@ -11,6 +14,10 @@ pub fn bin_to_int(bin: &String) -> String {
     }
     c_sbin
 }
+
+/**
+ * func: add dot to subnet string after function `get_subnet`
+ */
 pub fn subnet_format(subnet: String) -> String {
     subnet
         .as_bytes()
@@ -21,6 +28,10 @@ pub fn subnet_format(subnet: String) -> String {
         .unwrap()
         .join(".")
 }
+
+/**
+ * func: convert input to subnet, but it has no dot yet.
+ */
 pub fn get_subnet(mask: u8) -> String {
     let mut count_limit = 32;
     let mut subnet: String = "".to_string();
@@ -37,6 +48,9 @@ pub fn get_subnet(mask: u8) -> String {
     subnet
 }
 
+/**
+ * func: convert 0 to 1 and 1 to 0. for convert subnet mask to whildcard
+ */
 pub fn flip_bit(bit: String) -> String {
     let mut bit_source: Vec<&str> = bit.split("").collect();
     let limit_loop: u8 = bit_source.len() as u8;
