@@ -66,3 +66,4 @@ $ subnet -w 10 20 30
 - [ ] find subnet with number of devices 
 - [ ] update to latest version
 - [x] find wildcard
+- [ ] installing. use git clone but dont move any file or folder. just git clone.
