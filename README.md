@@ -17,14 +17,8 @@ console application for find subnet mask
 
 ### Install (For linux)
 
-1. run code bellow on your terminal with `curl` or `wget`
-
 ```bash
-curl -o- https://raw.githubusercontent.com/Arikato111/find_subnet/main/release/install.sh | bash
-```
-
-```bash
-wget -qO- https://raw.githubusercontent.com/Arikato111/find_subnet/main/release/install.sh | bash
+cargo install --git=https://github.com/Arikato111/find_subnet
 ```
 
 ### Build
@@ -63,7 +57,7 @@ $ subnet -w 10 20 30
 
 ### TODOs
 
-- [ ] find subnet with number of devices 
+- [ ] find subnet with number of devices
 - [ ] update to latest version
 - [x] find wildcard
 - [ ] installing. use git clone but dont move any file or folder. just git clone.
